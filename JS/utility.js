@@ -2,19 +2,19 @@
 function calculate(){
 
     //Username&Surname
-    nameSurname = document.getElementById('nSurname');
-    //checktype
-    console.dir(nameSurname);
+    nameSurname = document.getElementById('nSurname').value;
+    //Check
+    console.log(nameSurname);
 
     //KmDistance
     KmDistance = document.getElementById('KmUser').value;
-    //checktype
-    console.dir(KmDistance);
+    //check
+    console.log(KmDistance);
 
     //UserAge
     UserAge = document.getElementById('UserAge').value;
-    //checktype
-    console.dir(UserAge);
+    //check
+    console.log(UserAge);
 
     //check if the user put correct values
     if (KmDistance && UserAge) {
