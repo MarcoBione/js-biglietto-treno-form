@@ -10,6 +10,11 @@ let KmDistance = document.getElementById(Kmdistance);
 //check KmDistance
 console.log(KmDistance);
 
+//UserAge
+let UserAge = document.getElementById(UserAge);
+//check UserAge
+console.log(UserAge);
+
 //KmPrice
 const KmPrice = 0.21;
 //check KmPrice
@@ -27,6 +32,7 @@ console.log(DSenior);
 
 
 //---End variables---
+
 
 
 //---Main---
