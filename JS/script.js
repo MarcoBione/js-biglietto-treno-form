@@ -1,41 +1,49 @@
 //---Variables---
 
+//
+
 //Username&Surname
-let nameSurname = document.getElementById(nameSurname);
-//check name&surname
-console.log(nameSurname);
+let nameSurname = '';
 
 //KmDistance
-let KmDistance = document.getElementById(Kmdistance);
-//check KmDistance
-console.log(KmDistance);
+let KmDistance = 0;
 
 //UserAge
-let UserAge = document.getElementById(UserAge);
-//check UserAge
-console.log(UserAge);
+let UserAge = 0;
 
 //KmPrice
 const KmPrice = 0.21;
-//check KmPrice
-console.log(KmPrice);
 
 //DiscountJunior
-const DJunior = 0.20;
-//check DJunior
-console.log(DJunior);
-
+const DJunior = 20;
+    
 //DiscountSenior
-const DSenior = 0.40;
-//check DSenior
-console.log(DSenior);
+const DSenior = 40;
+    
+//junior
+let junior = 18;
+    
+//senior
+let senior = 65;
+    
+//DiscountJunior
+let DiscountJunior = 0;
+    
+//DiscountSenior
+let DiscountSenior = 0;
+    
+//finalprice
+let FinalPrice = 0;
 
-
+    
 //---End variables---
-
-
 
 //---Main---
 
+let btnSub = document.getElementById('btnSubmit');
+btnSub.addEventListener("click", calculate);
 
-//---End Main---
+let btnRes = document.getElementById('btnReset');
+btnRes.addEventListener("click", Reset);
+
+    
